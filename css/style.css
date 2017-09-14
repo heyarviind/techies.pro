@@ -30,3 +30,16 @@ a{
   background-color: #4fd66f;
   height: 300px;
 }
+  .mainCover h1{
+    color: #fff;
+  }
+  .mainCover p{
+    color: rgba(255,255,255,0.7);
+  }
+
+.section{
+  padding: 25px 0;
+}
+  .section.white{
+    background-color: #fff;
+  }
