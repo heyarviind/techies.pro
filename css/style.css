@@ -1,3 +1,5 @@
+/* Overwriting styles */
+
 *{
   box-sizing: border-box;
 }
@@ -16,15 +18,12 @@ a{
   color: #4fd66f;
 }
 
-header{
-  background-color: #fff;
-  padding: 10px;
-  text-align: center;
+.navbar-light{
+  background-color: #4fd66f;
 }
-  header .headerMenu a{
-    color: rgba(0,0,0,0.5);
-    padding: 10px;
-    display: inline-block;
+  .navbar-light a{
+    color: #fff !important;
+    
   }
 
 .mainCover{
