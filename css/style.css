@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #dee6f2;
+  font-size: 16px;
+  font-family: arial;
+}
+
+a{
+  text-decoration: none;
+  color: #4fd66f;
+}
+
+header{
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+  header .headerMenu a{
+    color: rgba(0,0,0,0.5);
+    padding: 10px;
+    display: inline-block;
+  }
+
+.mainCover{
+  background-color: #4fd66f;
+  height: 300px;
+}
