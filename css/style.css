@@ -10,7 +10,7 @@ body,html{
   font-family: 'Montserrat', sans-serif !important;
 }
 body{
-  background-color: #dee6f2;
+  background-color: #f0f0f0;
   font-size: 16px;
   line-height: 25px;
 }
@@ -55,6 +55,23 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 20px;
   width: 40px; height: 40px; 
 }
-.whyus .col-4{
+.whyus .col-lg-4{
   margin: 30px 0;
 }
+
+.who-us{
+  background-color: white;
+  border-radius: 3px;
+  
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px ;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+  .who-us h4{
+    margin: 10px 0 5px 0;
+  }
+  .who-us img{
+    border-radius: 50%;
+    width: 120px;
+  }
