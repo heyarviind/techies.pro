@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roadsidegeeks</title>
+    <description></description>
+    <link>https://roadsidegeeks.com/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 06 Aug 2017 12:40:30 +0530</pubDate>
+    <lastBuildDate>Sun, 06 Aug 2017 12:40:30 +0530</lastBuildDate>
+    <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>Jio phones Know how to prebook Jio phones for testing</title>
+        <description>&lt;p&gt;&lt;img src=&quot;img/jiophone-720.png&quot; alt=&quot;Flipkart Voice Search&quot; /&gt;
+Jio is starting &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-booking&lt;/code&gt; of their smartphones. It is expected that jio will start delievering their smartphones from 15 August onwards. It’s a Book first Get first scheme. Registration form is available on their official website.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Aug 2017 03:46:01 +0530</pubDate>
+        <link>https://roadsidegeeks.com/prebook-jio-phones-for-beta-testing</link>
+        <guid isPermaLink="true">https://roadsidegeeks.com/prebook-jio-phones-for-beta-testing</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Flipkart introduced voice search in their PWA</title>
+        <description>&lt;p&gt;&lt;img src=&quot;img/flipkart-voice-search-animation.gif&quot; alt=&quot;Flipkart Voice Search&quot; /&gt;
+Flipkart was fast to introduce their &lt;code class=&quot;highlighter-rouge&quot;&gt;PWA&lt;/code&gt; aka &lt;code class=&quot;highlighter-rouge&quot;&gt;Progressive Web App&lt;/code&gt; and now they have introduced &lt;code class=&quot;highlighter-rouge&quot;&gt;Voice Search&lt;/code&gt; in their web app. Now you have to just tap the &lt;code class=&quot;highlighter-rouge&quot;&gt;voice&lt;/code&gt; icon and start speaking what you want. It makes the whole process fast and easier. Instead of typing some query words you now just have to say those words.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Aug 2017 03:46:01 +0530</pubDate>
+        <link>https://roadsidegeeks.com/flipkart-indroduced-voice-search</link>
+        <guid isPermaLink="true">https://roadsidegeeks.com/flipkart-indroduced-voice-search</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+  </channel>
+</rss>
