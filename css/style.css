@@ -110,3 +110,10 @@ footer{
   padding: 10px;
   height: 100px;
 }
+
+.contact-top{
+  background-color: #4fd66f;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
