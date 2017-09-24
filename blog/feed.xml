@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Roadsidegeeks</title>
+    <title>Techies.pro</title>
     <description></description>
-    <link>https://roadsidegeeks.com/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Aug 2017 12:40:30 +0530</pubDate>
-    <lastBuildDate>Sun, 06 Aug 2017 12:40:30 +0530</lastBuildDate>
+    <link>https://techies.pro/blog</link>
+    <atom:link href="https://techies.pro//blog/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 24 Sep 2017 11:45:31 +0530</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2017 11:45:31 +0530</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -15,8 +15,8 @@
 Jio is starting &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-booking&lt;/code&gt; of their smartphones. It is expected that jio will start delievering their smartphones from 15 August onwards. It’s a Book first Get first scheme. Registration form is available on their official website.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Aug 2017 03:46:01 +0530</pubDate>
-        <link>https://roadsidegeeks.com/prebook-jio-phones-for-beta-testing</link>
-        <guid isPermaLink="true">https://roadsidegeeks.com/prebook-jio-phones-for-beta-testing</guid>
+        <link>https://techies.pro/blog/prebook-jio-phones-for-beta-testing</link>
+        <guid isPermaLink="true">https://techies.pro/blog/prebook-jio-phones-for-beta-testing</guid>
         
         
         <category>news</category>
@@ -27,10 +27,20 @@ Jio is starting &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-booking&lt;/
         <title>Flipkart introduced voice search in their PWA</title>
         <description>&lt;p&gt;&lt;img src=&quot;img/flipkart-voice-search-animation.gif&quot; alt=&quot;Flipkart Voice Search&quot; /&gt;
 Flipkart was fast to introduce their &lt;code class=&quot;highlighter-rouge&quot;&gt;PWA&lt;/code&gt; aka &lt;code class=&quot;highlighter-rouge&quot;&gt;Progressive Web App&lt;/code&gt; and now they have introduced &lt;code class=&quot;highlighter-rouge&quot;&gt;Voice Search&lt;/code&gt; in their web app. Now you have to just tap the &lt;code class=&quot;highlighter-rouge&quot;&gt;voice&lt;/code&gt; icon and start speaking what you want. It makes the whole process fast and easier. Instead of typing some query words you now just have to say those words.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum ligula orci, non tempor nulla ultricies quis. In hac habitasse platea dictumst. Aliquam in lobortis arcu. Vestibulum id tellus dapibus, consectetur lacus quis, sodales diam. Suspendisse vel tellus dui. Praesent in mi quis sapien ultrices euismod et a nibh. Maecenas non tristique purus, sit amet fermentum erat. Aliquam sagittis nisi est, a iaculis ante sagittis quis. Praesent in nunc vulputate, luctus lorem sed, facilisis nibh. Mauris nec congue diam. Maecenas luctus odio erat, vehicula consectetur ligula sagittis rutrum. Curabitur consectetur nulla ut risus sollicitudin, quis porttitor nulla vestibulum. Quisque molestie, sapien ut imperdiet ullamcorper, nunc nulla consectetur est, nec malesuada nulla arcu eget turpis. Mauris luctus convallis mollis. Etiam ac dapibus velit.&lt;/p&gt;
+
+&lt;p&gt;Duis iaculis venenatis eleifend. Integer tristique pharetra enim at ullamcorper. Nulla porta vel dolor nec molestie. Duis egestas, tortor et lacinia blandit, dolor felis rhoncus elit, eu finibus justo lectus nec eros. Curabitur et hendrerit eros, at gravida tortor. Curabitur pretium nunc tempus nisl mollis, sed porttitor orci consectetur. Sed at metus ut magna aliquam laoreet. Donec ut tellus sit amet dui fermentum blandit. Suspendisse faucibus placerat neque et auctor. Duis quis quam id nulla pellentesque elementum eget eu felis. Quisque ipsum libero, bibendum a molestie a, consequat at sapien. Nam eget lectus quis tellus consectetur luctus eget rutrum quam. Vestibulum id malesuada sapien. Curabitur neque arcu, gravida a mi non, convallis gravida arcu. Vestibulum quis congue enim, ut malesuada magna.&lt;/p&gt;
+
+&lt;p&gt;Cras sed libero fermentum, porta quam nec, faucibus tellus. Pellentesque vehicula tincidunt pulvinar. Vestibulum quis neque vitae lectus placerat porta. In eu purus nibh. Fusce a tortor ex. Fusce viverra tellus vel erat convallis porta. Nulla facilisi. Fusce posuere sollicitudin consectetur. Nunc mollis dolor quis dolor sagittis dapibus. Duis a arcu in ex efficitur pretium eget at nisl. Maecenas fermentum porttitor ante, id consectetur mi. Phasellus a diam egestas, efficitur augue at, ullamcorper tortor.&lt;/p&gt;
+
+&lt;p&gt;Nam nulla dui, dignissim non interdum nec, sollicitudin sit amet nibh. Quisque a felis nulla. Phasellus efficitur neque et gravida semper. Nullam placerat diam et felis tristique consequat. Duis tempor dolor at sollicitudin placerat. Duis eleifend, turpis ac blandit vestibulum, arcu orci condimentum justo, id facilisis lacus sapien et enim. Nunc vulputate interdum enim, sit amet feugiat tellus auctor nec. Fusce id quam nec leo interdum fringilla eu vel neque. Donec consequat vulputate ante.&lt;/p&gt;
+
+&lt;p&gt;Aliquam erat volutpat. Sed mauris lacus, ornare vel orci ut, gravida mollis metus. Etiam feugiat blandit auctor. Proin vulputate a eros vitae interdum. Praesent urna lacus, ornare et luctus tristique, gravida vehicula mi. Nunc suscipit interdum nisi. Phasellus vitae dictum nunc. Cras eleifend rhoncus metus.&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Aug 2017 03:46:01 +0530</pubDate>
-        <link>https://roadsidegeeks.com/flipkart-indroduced-voice-search</link>
-        <guid isPermaLink="true">https://roadsidegeeks.com/flipkart-indroduced-voice-search</guid>
+        <link>https://techies.pro/blog/flipkart-indroduced-voice-search</link>
+        <guid isPermaLink="true">https://techies.pro/blog/flipkart-indroduced-voice-search</guid>
         
         
         <category>news</category>
