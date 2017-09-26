@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
   <defs>
     <linearGradient id="clock-a" x1="20.232%" x2="73.593%" y1="7.418%" y2="100%">
-      <stop offset="0%" stop-color="#FA983F"/>
-      <stop offset="100%" stop-color="#FD6868"/>
+      <stop offset="0%" stop-color="#6BB55B"/>
+      <stop offset="100%" stop-color="#008F68"/>
     </linearGradient>
   </defs>
   <g fill="url(#clock-a)" transform="translate(1 1)">
