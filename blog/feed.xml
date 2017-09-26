@@ -4,9 +4,9 @@
     <title>Techies.pro</title>
     <description></description>
     <link>https://techies.pro/blog</link>
-    <atom:link href="https://techies.pro//blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Sep 2017 11:45:31 +0530</pubDate>
-    <lastBuildDate>Sun, 24 Sep 2017 11:45:31 +0530</lastBuildDate>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 24 Sep 2017 22:29:37 +0530</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2017 22:29:37 +0530</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -24,11 +24,11 @@ Jio is starting &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-booking&lt;/
       </item>
     
       <item>
-        <title>Flipkart introduced voice search in their PWA</title>
+        <title>Flipkart introduced voice search in their PWA </title>
         <description>&lt;p&gt;&lt;img src=&quot;img/flipkart-voice-search-animation.gif&quot; alt=&quot;Flipkart Voice Search&quot; /&gt;
 Flipkart was fast to introduce their &lt;code class=&quot;highlighter-rouge&quot;&gt;PWA&lt;/code&gt; aka &lt;code class=&quot;highlighter-rouge&quot;&gt;Progressive Web App&lt;/code&gt; and now they have introduced &lt;code class=&quot;highlighter-rouge&quot;&gt;Voice Search&lt;/code&gt; in their web app. Now you have to just tap the &lt;code class=&quot;highlighter-rouge&quot;&gt;voice&lt;/code&gt; icon and start speaking what you want. It makes the whole process fast and easier. Instead of typing some query words you now just have to say those words.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum ligula orci, non tempor nulla ultricies quis. In hac habitasse platea dictumst. Aliquam in lobortis arcu. Vestibulum id tellus dapibus, consectetur lacus quis, sodales diam. Suspendisse vel tellus dui. Praesent in mi quis sapien ultrices euismod et a nibh. Maecenas non tristique purus, sit amet fermentum erat. Aliquam sagittis nisi est, a iaculis ante sagittis quis. Praesent in nunc vulputate, luctus lorem sed, facilisis nibh. Mauris nec congue diam. Maecenas luctus odio erat, vehicula consectetur ligula sagittis rutrum. Curabitur consectetur nulla ut risus sollicitudin, quis porttitor nulla vestibulum. Quisque molestie, sapien ut imperdiet ullamcorper, nunc nulla consectetur est, nec malesuada nulla arcu eget turpis. Mauris luctus convallis mollis. Etiam ac dapibus velit.&lt;/p&gt;
+&lt;p&gt;Flipkart was fast to introduce their PWA aka Progressive Web App and now they have introduced Voice Search in their web app. Now you have to just tap the voice icon and start speaking what you want. It makes the whole process fast and easier. Instead of typing some query words you now just have to say those words.&lt;/p&gt;
 
 &lt;p&gt;Duis iaculis venenatis eleifend. Integer tristique pharetra enim at ullamcorper. Nulla porta vel dolor nec molestie. Duis egestas, tortor et lacinia blandit, dolor felis rhoncus elit, eu finibus justo lectus nec eros. Curabitur et hendrerit eros, at gravida tortor. Curabitur pretium nunc tempus nisl mollis, sed porttitor orci consectetur. Sed at metus ut magna aliquam laoreet. Donec ut tellus sit amet dui fermentum blandit. Suspendisse faucibus placerat neque et auctor. Duis quis quam id nulla pellentesque elementum eget eu felis. Quisque ipsum libero, bibendum a molestie a, consequat at sapien. Nam eget lectus quis tellus consectetur luctus eget rutrum quam. Vestibulum id malesuada sapien. Curabitur neque arcu, gravida a mi non, convallis gravida arcu. Vestibulum quis congue enim, ut malesuada magna.&lt;/p&gt;
 
