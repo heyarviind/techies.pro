@@ -4,9 +4,14 @@
 body,html{
   margin: 0;
   padding: 0;
-  background-color: #16141e;
+  background-color: #151E3E;
   height: 100%;
   display: flex;
+  
+  animation-name: background-change;
+  animation-duration: 0.8s;
+  animation-delay: 2s; 
+  
 }
 
 .canvas .bottle{
@@ -15,10 +20,10 @@ body,html{
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
-/* 
+
   animation-name: bottle;
   animation-duration: 0.8s;
-  animation-iteration-count: 1; */
+  animation-iteration-count: 1;
 }
 
 .canvas .rocket{
@@ -30,6 +35,8 @@ body,html{
 
   animation-name: rocket, shake;
   animation-duration: 2s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes rocket{
@@ -44,10 +51,20 @@ body,html{
 
 @keyframes bottle{
   0% {
-    bottom: 20px;
+    
   }
   100% {
-    bottom: -100px;
+    
     display: none;
   }
+}
+
+@keyframes background-change {
+  0%{ background-color: #151E3E }
+  20%{ background-color: #fff }
+  40%{ background-color: #151E3E }
+  60%{ background-color: #fff }
+  80%{ background-color: #151E3E }
+  90%{ background-color: #fff }
+  100%{ background-color: #151E3E }
 }
