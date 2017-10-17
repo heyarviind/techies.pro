@@ -5,6 +5,9 @@ body,html{
   margin: 0;
   padding: 0;
   background-color: #151E3E;
+  background-image: url(img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   display: flex;
   
