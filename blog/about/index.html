@@ -18,6 +18,14 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
       }
+
+      ul{
+        margin-top: 30px;
+      }
+        ul li{
+          margin-bottom: 20px;
+        }
+
       .navbar-light{
         background-color: #fff; 
         margin-bottom: 20px;
@@ -50,13 +58,10 @@
         margin-top: 0;
       }
       code{
-            background-color: rgba(236, 198, 48, .1);
-          line-height: inherit;
-          padding: 5px 7px 0;
-          white-space: pre-wrap;
-          border-bottom: 2px solid rgba(236, 198, 48, .3);
-          font-style: normal;
-          border-radius: 4px;
+        background: rgba(0,0,0,.05);
+        padding: 3px 4px;
+        margin: 0 2px;
+        color: #000;
       }
       .post-title-home a{
         color: #222222;
@@ -65,8 +70,16 @@
           color: #222222 !important;
         }
       a{
-        color: #44C086;
+        color: #0366d6;
 
+      }
+      .alert-primary{
+        background-color: #f6f9fc;
+        border: none;
+        color: rgba(0,0,0,0.8);
+      }
+      .lite{
+        font-weight: 400;
       }
         
         .nav-collapse,.nav-collapse.collapse{
@@ -80,7 +93,7 @@
       }
     </style>
     <link rel="canonical" href="http://localhost:4000/blog/about/">
-    <link rel="shortcut icon" href="/blog/favicon.ico">
+    <link rel="shortcut icon" href="/blog/favicon.png">
     <meta name="google-site-verification" content="SGtNpuDiIfROE4Y8AWkhNshz4A1xUrfWMjL_gCPPsQE" />
     <title>About  | Techies.pro</title>
     <!--[if lt IE 9]>
@@ -102,8 +115,8 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-      <a class="navbar-brand" href="#">Techies.pro</a>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="/blog/"><img src="https://www.techies.pro/static/logo.svg" height="25px" alt="Techies.pro"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -111,19 +124,17 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">Why Us?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/blog/">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
-          </li>
+          
         </ul>
+        <a class="nav-link" href="https://techies.pro/">Home</a>
+        <a class="nav-link" href="https://techies.pro/#services">Services</a>
+        <a class="nav-link" href="https://techies.pro/#whyus">Why Us?</a>
+        <a class="nav-link" href="https://techies.pro/#/products">Products</a>
+        <a class="nav-link" href="https://techies.pro/blog/">Blog</a>
+        
+        <a class="nav-link" href="https://techies.pro/#/contact">Contact</a>
+        <a class="nav-link" href="https://twitter.com/techiespro" target="_blank"><img src="img/social/twitter.svg" width="25px"></a>
+        
       </div>
     </nav>
 
@@ -146,8 +157,8 @@
 <script>
 
 </script>
-<div class="my-5"  data-purplecoat-label="footer.html">
-  <p>Copyright Techies.pro 2017</p>
+<div class="my-5"  data-purplecoat-label="footer.html" >
+  <p style="font-size:14px !important;" class="muted">Copyright Techies.pro 2017</p>
 </div>
 
         </div>
@@ -157,16 +168,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script>
-  if(navigator.share){
-    let url = document.location.href;
-    const canonicalElement = document.querySelector('link[rel=canonical]');
-    if (canonicalElement !== null) {
-      url = canonicalElement.href;
-    }
-    navigator.share({ url: url });
-  } else {
-    console.log('Browser does not have share API');
-  }
   
 </script>
   </body>

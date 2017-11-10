@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://techies.pro/css/style.css?v=0.5">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat');
+      body,html{
+        background-color: white;
+        font-family: 'verdana', sans-serif !important;
+      }
+      h1,h2,h3,h4,h5,h6{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+      }
+
+      ul{
+        margin-top: 30px;
+      }
+        ul li{
+          margin-bottom: 20px;
+        }
+
+      .navbar-light{
+        background-color: #fff; 
+        margin-bottom: 20px;
+      }
+        .navbar-light a{
+          color: #000 !important;
+        }
+      .post-excerpt-home img,
+      .post-content img{
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+      .post-navs img{
+        max-width: 100%;
+      }
+      .btn-success{
+        background-color: #02b875;
+        border-color: #02b875;
+      }
+      p{
+        
+        font-size: 18px;
+        line-height: 1.58;
+        color: rgba(0,0,0,0.8);
+        margin-top: 30px;
+        letter-spacing: 0px;
+      }
+      .by{
+        font-size: 16px !important;
+        margin-top: 0;
+      }
+      code{
+        background: rgba(0,0,0,.05);
+        padding: 3px 4px;
+        margin: 0 2px;
+        color: #000;
+      }
+      .post-title-home a{
+        color: #222222;
+      }
+        .post-excerpt-home a:hover{
+          color: #222222 !important;
+        }
+      a{
+        color: #0366d6;
+
+      }
+      .alert-primary{
+        background-color: #f6f9fc;
+        border: none;
+        color: rgba(0,0,0,0.8);
+      }
+      .lite{
+        font-weight: 400;
+      }
+        
+        .nav-collapse,.nav-collapse.collapse{
+      /* height:0; */
+      overflow:hidden
+  }
+      @media only screen and (max-width: 768px){
+        h1{
+          font-size: 32px;
+        }
+      }
+    </style>
+    <link rel="canonical" href="http://localhost:4000/blog/progressive-web-apps-for-noobs">
+    <link rel="shortcut icon" href="/blog/favicon.png">
+    <meta name="google-site-verification" content="SGtNpuDiIfROE4Y8AWkhNshz4A1xUrfWMjL_gCPPsQE" />
+    <title>Progressive web apps for Noobs | Techies.pro</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Begin Jekyll SEO tag v2.2.3 -->
+<title>Progressive | Techies.pro</title>
+<meta property="og:title" content="Progressive web apps for Noobs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is a description" />
+<meta property="og:description" content="This is a description" />
+<link rel="canonical" href="http://localhost:4000/blog/progressive-web-apps-for-noobs" />
+<meta property="og:url" content="http://localhost:4000/blog/progressive-web-apps-for-noobs" />
+<meta property="og:site_name" content="Techies.pro" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-11-11T03:46:01+05:30" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"BlogPosting","headline":"Progressive","datePublished":"2017-11-11T03:46:01+05:30","dateModified":"2017-11-11T03:46:01+05:30","description":"This is a description","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/progressive-web-apps-for-noobs"},"url":"http://localhost:4000/blog/progressive-web-apps-for-noobs"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="/blog/"><img src="https://www.techies.pro/static/logo.svg" height="25px" alt="Techies.pro"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+        </ul>
+        <a class="nav-link" href="https://techies.pro/">Home</a>
+        <a class="nav-link" href="https://techies.pro/#services">Services</a>
+        <a class="nav-link" href="https://techies.pro/#whyus">Why Us?</a>
+        <a class="nav-link" href="https://techies.pro/#/products">Products</a>
+        <a class="nav-link" href="https://techies.pro/blog/">Blog</a>
+        
+        <a class="nav-link" href="https://techies.pro/#/contact">Contact</a>
+        <a class="nav-link" href="https://twitter.com/techiespro" target="_blank"><img src="img/social/twitter.svg" width="25px"></a>
+        
+      </div>
+    </nav>
+
+
+    <div class="container" style="max-width:700px">
+      <div >
+        <div class="col-xs-12 col-xs-offset-0">
+           <!-- <ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item"><a href="#">Blog</a></li>
+  <li class="breadcrumb-item active">Progressive&nbsp;web apps for Noobs</li>
+</ol> -->
+
+<div class="post-header">
+  <p class="by">🕑 <span class="muted">11 Nov 2017</span> | 🤓 <span class="muted">Posted by</span> <a href="https://twitter.com/heyarviind" target="_blank">@heyarviind</a></p>
+  <h1 class="post-title-main">Progressive&nbsp;<span style="font-weight:100">web apps for Noobs</span></h1>
+  <!-- Feel free to remove this div. Uses purplecoat: http://ellekasai.github.io/purplecoat.js -->
+<!-- <div data-purplecoat="shiori" data-purplecoat-label="post-header.html">
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6734285094017547"
+         data-ad-slot="7059778083"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+</div> -->
+
+</div>
+<div class="post-content">
+  <p><img src="img/pwa-cover.png" alt="Progressive Web App" />
+The web is changing so fast that it’s difficult for every developer to learn each and every new technologies, but there are many latest tech that developers should not miss and <code class="highlighter-rouge">PWAs (Progressive web apps)</code> are one of them.</p>
+
+<h3 class="lite">🤔 But what are PWAs?</h3>
+
+<p>Progressive web apps are the web apps which look like native apps. PWAs uses latest browser’s <a target="_blank" href="https://en.wikipedia.org/wiki/Application_programming_interface">APIs</a> to extend their features and provide a native app like experience.</p>
+
+<h4 class="lite">Here are the features of PWAs 😎:</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">Responsive</code> - It works on every device like Mobile, Desktop, or Tablets or whatever is next</li>
+  <li><code class="highlighter-rouge">App Like</code> - PWAs will just feel like native mobile apps because the shell and content are seprated</li>
+  <li><code class="highlighter-rouge">Updated</code> - Always stays fresh, because service workers keeps the content on the page up-to-date</li>
+  <li><code class="highlighter-rouge">Safe</code> - Progressive web apps work over https so all the data transfered over the network is encrypted</li>
+  <li><code class="highlighter-rouge">Installable</code> - PWAs can be installed just like native apps are installed on Operating System</li>
+  <li><code class="highlighter-rouge">Notifications</code> - Thanks to the browser APIs and Service Workers, users can recieve notifications.</li>
+</ul>
+
+<h3 class="lite">...and what is Service Worker?</h3>
+<p><img src="img/service-worker.png" alt="Progressive Web App" />
+<a target="_blank" href="https://developers.google.com/web/fundamentals/primers/service-workers/">Service workers</a> are the worker scripts which <code class="highlighter-rouge">works in background</code> for the web app. They are very powerful technology behind PWAs and handle <code class="highlighter-rouge">push notifications</code>, <code class="highlighter-rouge">cache web app's content</code>, make web app to <code class="highlighter-rouge">work offline</code> and lot more</p>
+
+<p>In other words, service workers are just a javascript file that works independent of webapp and in background and it is up to you to write code for notification, content caching, etc</p>
+
+<p>Service workers are available on Android with chrome 50 or higher and <a href="http://caniuse.com/#feat=serviceworkers">not supported by some major  browsers</a> but developers are working to bring it on different platforms and browsers.</p>
+
+<h3 class="lite">Appshell</h3>
+<p><img src="img/shell-content.png" alt="Progressive Web App" />
+Appshell is not a <code class="highlighter-rouge">framework</code> or <code class="highlighter-rouge">library</code>, it’s just a design approach that developers can choose to adhere to that is enhanced by the caching abilities of service workers. It is loaded at the beginning of the page load and the content is loaded afterward.</p>
+
+<p>Service worker caches the appshell and makes the web app load quicker after the first load. This improves the overall app experience.</p>
+
+<h3 class="lite">Installability and App Manifest</h3>
+
+<p>One of the best features of PWAs is user can install the app just from the browser. Before installed PWA was placed on the home screen but now user can install them just like native apps and will appear in apps drawer too. Like native apps, you can uninstall the PWAs too.</p>
+
+<p>To make the app installable we link <code class="highlighter-rouge">manifest.json</code> file to our main HTML page. (See how <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json" target="_blank">manifest.json</a> is written)</p>
+
+<div class="alert alert-primary">
+<h5 class="lite">Useful Links</h5>
+
+- If you want to learn more about progressive web apps, visit the google's <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">official documentation</a><br />
+- <a href="https://developers.google.com/web/tools/lighthouse/" target="_blank">Lighthouse</a> is a tool used to improve the quality of PWAs<br />
+- <a href="https://pwa.rocks/" target="_blank">pwa.rocks</a> is directory of cool progressive web apps<br />
+</div>
+
+<h3 class="lite">Conclusion</h3>
+
+<p>At <a target="_blank" href="https://techies.pro">Techies.pro</a>, we believe that Progressive Web apps are the future of web apps, at some time they will replace the native web apps. It’s just the initial stage of this technology, with time this will get more mature and will be adopted by all major browsers.</p>
+
+
+  <!-- <div class="share-page my-3">
+      Share this on &rarr;
+      <a href="https://twitter.com/intent/tweet?text=Progressive&url=http://localhost:4000/progressive-web-apps-for-noobs&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+      <a href="https://facebook.com/sharer.php?u=http://localhost:4000/progressive-web-apps-for-noobs" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+      <a href="https://plus.google.com/share?url=http://localhost:4000/progressive-web-apps-for-noobs" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+
+  </div> -->
+</div>
+<div class="post-footer">
+  <hr>
+<div class="aboutAutor" style="padding:16px;">
+  <div class="row">
+    <div class="col-lg-3 col-xs-12">
+      <img style="width:100px;border-radius:50%;margin-bottom:20px" src="https://d33wubrfki0l68.cloudfront.net/c50c64842627e48d9b9569240194fcd5d51e03e1/b6afc/img/arvind-min.jpeg" alt="">
+    </div>
+    <div class="col-lg-9 col-xs-12">
+      <h5 style="font-weight:400">About the author:</h5>
+      <p style="font-size:14px;margin-top:10px">
+        <span class="muted"><a href="https://heyarviind.com">Arvind Singh</a> loves to learn new technology and write about them. He is a software developer in Delhi based startup</span> 
+        <br><br>
+        <a target="_blank" href="https://instagram.com/heyarviind"><img src="img/social/instagram.svg" width="25px"></a>&nbsp;&nbsp;
+        <a target="_blank" href="https://twitter.com/heyarviind"><img src="img/social/twitter.svg" width="25px"></a>&nbsp;&nbsp;
+        <a target="_blank" href="https://github.com/heyarviind"><img src="img/social/github.svg" width="25px"></a>&nbsp;&nbsp;
+        <a target="_blank" href="https://dribbble.com/heyarviind"><img src="img/social/dribbble.svg" width="25px"></a>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout="image-middle"
+     data-ad-layout-key="-ej+6g-15-c4+qd"
+     data-ad-client="ca-pub-6734285094017547"
+     data-ad-slot="7238374506"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> -->
+
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-sm-12 text-center">
+          <!-- Feel free to remove this div. Uses purplecoat: http://ellekasai.github.io/purplecoat.js -->
+<script>
+
+</script>
+<div class="my-5"  data-purplecoat-label="footer.html" >
+  <p style="font-size:14px !important;" class="muted">Copyright Techies.pro 2017</p>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script>
+  
+</script>
+  </body>
+</html>

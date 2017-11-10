@@ -5,45 +5,68 @@
     <description></description>
     <link>https://techies.pro/blog</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Sep 2017 10:20:08 +0530</pubDate>
-    <lastBuildDate>Wed, 27 Sep 2017 10:20:08 +0530</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 00:51:15 +0530</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 00:51:15 +0530</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
-        <title>Jio phones Know how to prebook Jio phones for testing</title>
-        <description>&lt;p&gt;&lt;img src=&quot;img/jiophone-720.png&quot; alt=&quot;Flipkart Voice Search&quot; /&gt;
-Jio is starting &lt;code class=&quot;highlighter-rouge&quot;&gt;pre-booking&lt;/code&gt; of their smartphones. It is expected that jio will start delievering their smartphones from 15 August onwards. It’s a Book first Get first scheme. Registration form is available on their official website.&lt;/p&gt;
+        <title>Progressive web apps for Noobs</title>
+        <description>&lt;p&gt;&lt;img src=&quot;img/pwa-cover.png&quot; alt=&quot;Progressive Web App&quot; /&gt;
+The web is changing so fast that it’s difficult for every developer to learn each and every new technologies, but there are many latest tech that developers should not miss and &lt;code class=&quot;highlighter-rouge&quot;&gt;PWAs (Progressive web apps)&lt;/code&gt; are one of them.&lt;/p&gt;
+
+&lt;h3 class=&quot;lite&quot;&gt;🤔 But what are PWAs?&lt;/h3&gt;
+
+&lt;p&gt;Progressive web apps are the web apps which look like native apps. PWAs uses latest browser’s &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;APIs&lt;/a&gt; to extend their features and provide a native app like experience.&lt;/p&gt;
+
+&lt;h4 class=&quot;lite&quot;&gt;Here are the features of PWAs 😎:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Responsive&lt;/code&gt; - It works on every device like Mobile, Desktop, or Tablets or whatever is next&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;App Like&lt;/code&gt; - PWAs will just feel like native mobile apps because the shell and content are seprated&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Updated&lt;/code&gt; - Always stays fresh, because service workers keeps the content on the page up-to-date&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Safe&lt;/code&gt; - Progressive web apps work over https so all the data transfered over the network is encrypted&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Installable&lt;/code&gt; - PWAs can be installed just like native apps are installed on Operating System&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Notifications&lt;/code&gt; - Thanks to the browser APIs and Service Workers, users can recieve notifications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&quot;lite&quot;&gt;...and what is Service Worker?&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;img/service-worker.png&quot; alt=&quot;Progressive Web App&quot; /&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://developers.google.com/web/fundamentals/primers/service-workers/&quot;&gt;Service workers&lt;/a&gt; are the worker scripts which &lt;code class=&quot;highlighter-rouge&quot;&gt;works in background&lt;/code&gt; for the web app. They are very powerful technology behind PWAs and handle &lt;code class=&quot;highlighter-rouge&quot;&gt;push notifications&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;cache web app's content&lt;/code&gt;, make web app to &lt;code class=&quot;highlighter-rouge&quot;&gt;work offline&lt;/code&gt; and lot more&lt;/p&gt;
+
+&lt;p&gt;In other words, service workers are just a javascript file that works independent of webapp and in background and it is up to you to write code for notification, content caching, etc&lt;/p&gt;
+
+&lt;p&gt;Service workers are available on Android with chrome 50 or higher and &lt;a href=&quot;http://caniuse.com/#feat=serviceworkers&quot;&gt;not supported by some major  browsers&lt;/a&gt; but developers are working to bring it on different platforms and browsers.&lt;/p&gt;
+
+&lt;h3 class=&quot;lite&quot;&gt;Appshell&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;img/shell-content.png&quot; alt=&quot;Progressive Web App&quot; /&gt;
+Appshell is not a &lt;code class=&quot;highlighter-rouge&quot;&gt;framework&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;library&lt;/code&gt;, it’s just a design approach that developers can choose to adhere to that is enhanced by the caching abilities of service workers. It is loaded at the beginning of the page load and the content is loaded afterward.&lt;/p&gt;
+
+&lt;p&gt;Service worker caches the appshell and makes the web app load quicker after the first load. This improves the overall app experience.&lt;/p&gt;
+
+&lt;h3 class=&quot;lite&quot;&gt;Installability and App Manifest&lt;/h3&gt;
+
+&lt;p&gt;One of the best features of PWAs is user can install the app just from the browser. Before installed PWA was placed on the home screen but now user can install them just like native apps and will appear in apps drawer too. Like native apps, you can uninstall the PWAs too.&lt;/p&gt;
+
+&lt;p&gt;To make the app installable we link &lt;code class=&quot;highlighter-rouge&quot;&gt;manifest.json&lt;/code&gt; file to our main HTML page. (See how &lt;a href=&quot;https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json&quot; target=&quot;_blank&quot;&gt;manifest.json&lt;/a&gt; is written)&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;h5 class=&quot;lite&quot;&gt;Useful Links&lt;/h5&gt;
+
+- If you want to learn more about progressive web apps, visit the google's &lt;a href=&quot;https://developers.google.com/web/progressive-web-apps/&quot; target=&quot;_blank&quot;&gt;official documentation&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot; target=&quot;_blank&quot;&gt;Lighthouse&lt;/a&gt; is a tool used to improve the quality of PWAs&lt;br /&gt;
+- &lt;a href=&quot;https://pwa.rocks/&quot; target=&quot;_blank&quot;&gt;pwa.rocks&lt;/a&gt; is directory of cool progressive web apps&lt;br /&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&quot;lite&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;At &lt;a target=&quot;_blank&quot; href=&quot;https://techies.pro&quot;&gt;Techies.pro&lt;/a&gt;, we believe that Progressive Web apps are the future of web apps, at some time they will replace the native web apps. It’s just the initial stage of this technology, with time this will get more mature and will be adopted by all major browsers.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Aug 2017 03:46:01 +0530</pubDate>
-        <link>https://techies.pro/blog/prebook-jio-phones-for-beta-testing</link>
-        <guid isPermaLink="true">https://techies.pro/blog/prebook-jio-phones-for-beta-testing</guid>
+        <pubDate>Sat, 11 Nov 2017 03:46:01 +0530</pubDate>
+        <link>https://techies.pro/blog/progressive-web-apps-for-noobs</link>
+        <guid isPermaLink="true">https://techies.pro/blog/progressive-web-apps-for-noobs</guid>
         
         
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Flipkart introduced voice search in their PWA </title>
-        <description>&lt;p&gt;&lt;img src=&quot;img/flipkart-voice-search-animation.gif&quot; alt=&quot;Flipkart Voice Search&quot; /&gt;
-Flipkart was fast to introduce their &lt;code class=&quot;highlighter-rouge&quot;&gt;PWA&lt;/code&gt; aka &lt;code class=&quot;highlighter-rouge&quot;&gt;Progressive Web App&lt;/code&gt; and now they have introduced &lt;code class=&quot;highlighter-rouge&quot;&gt;Voice Search&lt;/code&gt; in their web app. Now you have to just tap the &lt;code class=&quot;highlighter-rouge&quot;&gt;voice&lt;/code&gt; icon and start speaking what you want. It makes the whole process fast and easier. Instead of typing some query words you now just have to say those words.&lt;/p&gt;
-
-&lt;p&gt;Flipkart was fast to introduce their PWA aka Progressive Web App and now they have introduced Voice Search in their web app. Now you have to just tap the voice icon and start speaking what you want. It makes the whole process fast and easier. Instead of typing some query words you now just have to say those words.&lt;/p&gt;
-
-&lt;p&gt;Duis iaculis venenatis eleifend. Integer tristique pharetra enim at ullamcorper. Nulla porta vel dolor nec molestie. Duis egestas, tortor et lacinia blandit, dolor felis rhoncus elit, eu finibus justo lectus nec eros. Curabitur et hendrerit eros, at gravida tortor. Curabitur pretium nunc tempus nisl mollis, sed porttitor orci consectetur. Sed at metus ut magna aliquam laoreet. Donec ut tellus sit amet dui fermentum blandit. Suspendisse faucibus placerat neque et auctor. Duis quis quam id nulla pellentesque elementum eget eu felis. Quisque ipsum libero, bibendum a molestie a, consequat at sapien. Nam eget lectus quis tellus consectetur luctus eget rutrum quam. Vestibulum id malesuada sapien. Curabitur neque arcu, gravida a mi non, convallis gravida arcu. Vestibulum quis congue enim, ut malesuada magna.&lt;/p&gt;
-
-&lt;p&gt;Cras sed libero fermentum, porta quam nec, faucibus tellus. Pellentesque vehicula tincidunt pulvinar. Vestibulum quis neque vitae lectus placerat porta. In eu purus nibh. Fusce a tortor ex. Fusce viverra tellus vel erat convallis porta. Nulla facilisi. Fusce posuere sollicitudin consectetur. Nunc mollis dolor quis dolor sagittis dapibus. Duis a arcu in ex efficitur pretium eget at nisl. Maecenas fermentum porttitor ante, id consectetur mi. Phasellus a diam egestas, efficitur augue at, ullamcorper tortor.&lt;/p&gt;
-
-&lt;p&gt;Nam nulla dui, dignissim non interdum nec, sollicitudin sit amet nibh. Quisque a felis nulla. Phasellus efficitur neque et gravida semper. Nullam placerat diam et felis tristique consequat. Duis tempor dolor at sollicitudin placerat. Duis eleifend, turpis ac blandit vestibulum, arcu orci condimentum justo, id facilisis lacus sapien et enim. Nunc vulputate interdum enim, sit amet feugiat tellus auctor nec. Fusce id quam nec leo interdum fringilla eu vel neque. Donec consequat vulputate ante.&lt;/p&gt;
-
-&lt;p&gt;Aliquam erat volutpat. Sed mauris lacus, ornare vel orci ut, gravida mollis metus. Etiam feugiat blandit auctor. Proin vulputate a eros vitae interdum. Praesent urna lacus, ornare et luctus tristique, gravida vehicula mi. Nunc suscipit interdum nisi. Phasellus vitae dictum nunc. Cras eleifend rhoncus metus.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 06 Aug 2017 03:46:01 +0530</pubDate>
-        <link>https://techies.pro/blog/flipkart-indroduced-voice-search</link>
-        <guid isPermaLink="true">https://techies.pro/blog/flipkart-indroduced-voice-search</guid>
-        
-        
-        <category>news</category>
+        <category>web</category>
         
       </item>
     
