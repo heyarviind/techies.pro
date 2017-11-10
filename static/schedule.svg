@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <rect id="schedule-a" width="70.053" height="70.053" rx="4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+    <mask id="schedule-b" fill="#fff">
+      <use xlink:href="#schedule-a"/>
+    </mask>
+    <use fill="#F9F9F9" xlink:href="#schedule-a"/>
+    <rect width="69.053" height="69.053" x=".5" y=".5" stroke="#EFEFEF" rx="4"/>
+    <rect width="87.177" height="34.248" x="-7.784" y="-17.124" fill="#E86C60" mask="url(#schedule-b)"/>
+    <g fill="#C94F49" transform="translate(9.34 7.784)">
+      <rect width="10.897" height="3.113" rx="1.557"/>
+      <rect width="10.897" height="3.113" x="20.238" rx="1.557"/>
+      <rect width="10.897" height="3.113" x="40.475" rx="1.557"/>
+    </g>
+    <g stroke="#B3B3B3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(7.784 26.465)">
+      <g transform="translate(6.227)">
+        <path d="M1.5567395.778369748L1.5567395 28.8428901M15.567395.778369748L15.567395 28.8428901M29.5780504.778369748L29.5780504 28.8428901M43.5887059.778369748L43.5887059 28.8428901"/>
+      </g>
+      <path d="M.778369748 7.78369748L55.2642521 7.78369748M.778369748 20.2376135L55.2642521 20.2376135"/>
+    </g>
+  </g>
+</svg>
